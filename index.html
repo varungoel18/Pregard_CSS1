@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        .heading1{
+            display: block;
+            text-transform: uppercase;
+            text-indent: 50px;
+            letter-spacing: 10px;
+            font-style: italic;
+        }
+        .heading5{
+            display: block;
+            word-spacing: 20px;
+            font-family: cursive;
+            font-size: 40px;
+            font-weight: bold;
+            font-style: italic;
+
+        }
+        .heading7{
+            text-align: center;
+            text-decoration: line-through;
+        }
+        #heading-ex , #heading-ex1 , #heading-ex2 {
+            display: inline;
+        }
+        #heading-ex1 {
+            text-decoration :underline ;
+        }
+        .heading2 {
+            line-height: 10;
+            direction: ltr;
+            text-shadow: 50px 50px purple;
+        }
+        #id1 {
+            font-weight: bold;
+        }
+        img {
+            max-width: 20%;
+            float: right;
+        }
+        
+
+        .container h1 , p{
+            color: red;
+        }
+        /* p , span{
+            color: aqua;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="1920-1080-sample.jpg" alt="Environemt">
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum dolore quaerat voluptates. Recusandae tempora ipsa pariatur repudiandae sit ratione beatae assumenda. Earum ipsa, ducimus debitis modi sapiente voluptates cupiditate.</p>
+    <h1 class="heading1">text1</h1>
+    <h1 class="heading2">Text2</h1>
+    <h1 class="heading3">Text3</h1>
+    <h1 class="heading4">Text4</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum velit facilis laborum provident fugit non distinctio officiis, pariatur eaque, error sit libero modi voluptas nihil ducimus aperiam eius eum?</p>
+    </div>
+
+    <p class="heading7"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet tempore quisquam et aut quidem incidunt! Eum, perferendis magni dolorem corrupti eveniet quam 
+        quas sed ullam necessitatibus voluptas voluptatibus! Aspernatur!</p>
+    <span>Continue paragraph</span>
+
+    <h1 id="heading-ex"> Sale </h1>
+    <h2 id="heading-ex1">199</h2>
+    <h2 id="heading-ex2">150</h2>
+
+    <b><span id="id1" class="heading5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt aperiam hic voluptatibus quod? Quia hic, alias temporibus repudiandae, 
+        in, quod ipsum non dolorem tempora repellendus aliquam voluptas cumque tempore.</span></b>
+    <span class="heading6">Continue of lorem lipsum.</span>
+</body>
+</html>
